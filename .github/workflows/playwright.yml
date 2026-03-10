@@ -43,3 +43,15 @@ jobs:
         with:
           name: test-results
           path: test-results/
+      - name: Notify Slack
+        if: always()
+        run: |
+          if [ "${{ job.status }}" = "success" ]; then
+            STATUS="✅ Playwright tests passed"
+          else
+            STATUS="❌ Playwright tests failed"
+          fi
+
+          curl -X POST -H 'Content-type: application/json' \
+          --data "{\"text\":\"$STATUS\nRepo: ${{ github.repository }}\nBranch: ${{ github.ref_name }}\nRun: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"}" \
+          "${{ secrets.SLACK_WEBHOOK_URL }}"
