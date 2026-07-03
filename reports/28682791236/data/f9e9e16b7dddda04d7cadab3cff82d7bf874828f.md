@@ -1,0 +1,462 @@
+# Page snapshot
+
+```yaml
+- main [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e10]:
+        - link "lobby" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img [ref=e14]
+          - paragraph [ref=e16]: lobby
+        - link "aviator" [ref=e17] [cursor=pointer]:
+          - /url: /casino/game/aviator
+          - img [ref=e20]
+          - paragraph [ref=e37]: Aviateur
+        - link "New" [ref=e38] [cursor=pointer]:
+          - /url: /casino/new/home
+          - img [ref=e41]
+          - paragraph [ref=e46]: New
+        - link "Crash" [ref=e47] [cursor=pointer]:
+          - /url: /casino/crash/home
+          - img [ref=e50]
+          - paragraph [ref=e97]: Crash
+        - link "Vegas" [ref=e98] [cursor=pointer]:
+          - /url: /casino/vegas/home
+          - img [ref=e101]
+          - paragraph [ref=e128]: Vegas
+        - link "Instants" [ref=e129] [cursor=pointer]:
+          - /url: /casino/instants/home
+          - img [ref=e132]
+          - paragraph [ref=e143]: Instants
+        - link "telegram" [ref=e144] [cursor=pointer]:
+          - /url: https://t.me/choplifeci
+          - img [ref=e147]
+          - paragraph [ref=e150]: telegram
+        - link "promos" [ref=e151] [cursor=pointer]:
+          - /url: /promos
+          - img [ref=e154]
+          - paragraph [ref=e167]: Promo
+      - generic [ref=e169]:
+        - button "Bonus" [ref=e170] [cursor=pointer]:
+          - generic [ref=e173]: Bonus
+        - button "parrainage" [ref=e174] [cursor=pointer]:
+          - generic [ref=e177]: parrainage
+        - button "Tournoi" [ref=e178] [cursor=pointer]:
+          - generic [ref=e181]: Tournoi
+        - button "Prize Drop" [ref=e182] [cursor=pointer]:
+          - generic [ref=e185]: Prize Drop
+        - button "Nouveau Challenges" [ref=e186] [cursor=pointer]:
+          - generic [ref=e187]: Nouveau
+          - generic [ref=e190]: Challenges
+        - button "Nouveau raffle" [ref=e191] [cursor=pointer]:
+          - generic [ref=e192]: Nouveau
+          - generic [ref=e195]: raffle
+        - button "Nouveau Predictions" [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]: Nouveau
+          - generic [ref=e200]: Predictions
+        - button "Nouveau Casino Jackpot" [ref=e201] [cursor=pointer]:
+          - generic [ref=e202]: Nouveau
+          - generic [ref=e205]: Casino Jackpot
+      - list [ref=e207]:
+        - listitem [ref=e208] [cursor=pointer]:
+          - link "Contacte nous" [ref=e209]:
+            - /url: /customer-support
+            - listitem [ref=e210]:
+              - img [ref=e211]
+              - generic [ref=e215]: Contacte nous
+        - listitem [ref=e216] [cursor=pointer]:
+          - link "How to play" [ref=e217]:
+            - /url: /tutorials
+            - listitem [ref=e218]:
+              - img [ref=e219]
+              - generic [ref=e224]: How to play
+      - list [ref=e227]:
+        - link "Joué récemment" [ref=e229] [cursor=pointer]:
+          - /url: /games/recent
+          - listitem [ref=e230]:
+            - img [ref=e231]
+            - generic [ref=e233]: Joué récemment
+        - link "Mon espace perso" [ref=e235] [cursor=pointer]:
+          - /url: /my-account
+          - listitem [ref=e236]:
+            - img [ref=e237]
+            - generic [ref=e239]: Mon espace perso
+        - link "My mission" [ref=e241] [cursor=pointer]:
+          - /url: /battle-slot
+          - listitem [ref=e242]:
+            - img [ref=e243]
+            - generic [ref=e248]: My mission
+        - link "scratchCards" [ref=e250] [cursor=pointer]:
+          - /url: /scratch-cards
+          - listitem [ref=e251]:
+            - img [ref=e252]
+            - generic [ref=e254]: scratchCards
+        - link "downloadApkFreespins" [ref=e256] [cursor=pointer]:
+          - /url: /apk
+          - listitem [ref=e257]:
+            - img [ref=e258]
+            - generic [ref=e260]: downloadApkFreespins
+      - button "Toggle Language" [ref=e263] [cursor=pointer]:
+        - generic [ref=e264]:
+          - img [ref=e265]
+          - generic [ref=e275]: Langue
+        - img [ref=e277]
+      - button "Toggle Help Center" [ref=e281] [cursor=pointer]:
+        - generic [ref=e282]:
+          - img [ref=e283]
+          - generic [ref=e286]: Aide et support
+        - img [ref=e287]
+      - generic [ref=e290]:
+        - button "Dark" [ref=e292] [cursor=pointer]:
+          - img [ref=e293]
+          - generic [ref=e295]: Dark
+        - button "Light" [ref=e296] [cursor=pointer]:
+          - img [ref=e297]
+          - generic [ref=e300]: Light
+    - generic [ref=e301]:
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - generic [ref=e304]:
+            - button "Toggle sidebar" [ref=e305] [cursor=pointer]:
+              - img [ref=e306]
+            - link "Accueil" [ref=e307] [cursor=pointer]:
+              - /url: /
+              - img [ref=e308]
+          - generic [ref=e317]:
+            - button "loyalty" [ref=e321] [cursor=pointer]:
+              - img "Tier Icon" [ref=e323]
+            - button "Recherche" [ref=e324] [cursor=pointer]:
+              - img [ref=e325]
+            - button "Toggle language dropdown" [ref=e329] [cursor=pointer]:
+              - img [ref=e330]
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - generic [ref=e334]:
+                  - paragraph [ref=e335]: Balance
+                  - 'button "mainAccount: 111399999.5M FCFA" [ref=e336] [cursor=pointer]':
+                    - text: 111399999.5M
+                    - generic [ref=e337]: FCFA
+                    - img [ref=e339]
+                - button "Retrait" [ref=e341] [cursor=pointer]:
+                  - img [ref=e343]
+              - link "Inbox" [ref=e348] [cursor=pointer]:
+                - /url: /inbox
+                - img [ref=e349]
+              - button "Toggle wallet dropdown" [ref=e352] [cursor=pointer]:
+                - img [ref=e353]
+              - button "Open chat" [ref=e356] [cursor=pointer]:
+                - img [ref=e358]
+        - generic [ref=e367]:
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - paragraph [ref=e371]: latestWinners
+              - img [ref=e373]
+            - region "latestWinners" [ref=e377]:
+              - button "Aviatrix Joueur **7483 439 000 FCFA" [ref=e378] [cursor=pointer]:
+                - generic [ref=e379]:
+                  - paragraph [ref=e380]: Aviatrix
+                  - generic [ref=e381]: Joueur **7483
+                - generic [ref=e382]:
+                  - img [ref=e383]
+                  - generic [ref=e384]: 439 000 FCFA
+              - button "Aviatrix Joueur **7483 274 000 FCFA" [ref=e385] [cursor=pointer]:
+                - generic [ref=e386]:
+                  - paragraph [ref=e387]: Aviatrix
+                  - generic [ref=e388]: Joueur **7483
+                - generic [ref=e389]:
+                  - img [ref=e390]
+                  - generic [ref=e391]: 274 000 FCFA
+              - button "Aviatrix Joueur **7483 244 000 FCFA" [ref=e392] [cursor=pointer]:
+                - generic [ref=e393]:
+                  - paragraph [ref=e394]: Aviatrix
+                  - generic [ref=e395]: Joueur **7483
+                - generic [ref=e396]:
+                  - img [ref=e397]
+                  - generic [ref=e398]: 244 000 FCFA
+              - button "Aviatrix Joueur **7483 230 000 FCFA" [ref=e399] [cursor=pointer]:
+                - generic [ref=e400]:
+                  - paragraph [ref=e401]: Aviatrix
+                  - generic [ref=e402]: Joueur **7483
+                - generic [ref=e403]:
+                  - img [ref=e404]
+                  - generic [ref=e405]: 230 000 FCFA
+              - button "Aviatrix Joueur **7483 226 000 FCFA" [ref=e406] [cursor=pointer]:
+                - generic [ref=e407]:
+                  - paragraph [ref=e408]: Aviatrix
+                  - generic [ref=e409]: Joueur **7483
+                - generic [ref=e410]:
+                  - img [ref=e411]
+                  - generic [ref=e412]: 226 000 FCFA
+              - button "Aviatrix Joueur **7483 224 000 FCFA" [ref=e413] [cursor=pointer]:
+                - generic [ref=e414]:
+                  - paragraph [ref=e415]: Aviatrix
+                  - generic [ref=e416]: Joueur **7483
+                - generic [ref=e417]:
+                  - img [ref=e418]
+                  - generic [ref=e419]: 224 000 FCFA
+              - button "Aviator Joueur **7483 134 000 FCFA" [ref=e420] [cursor=pointer]:
+                - generic [ref=e421]:
+                  - paragraph [ref=e422]: Aviator
+                  - generic [ref=e423]: Joueur **7483
+                - generic [ref=e424]:
+                  - img [ref=e425]
+                  - generic [ref=e426]: 134 000 FCFA
+              - button "Aviator Joueur **7483 105 500 FCFA" [ref=e427] [cursor=pointer]:
+                - generic [ref=e428]:
+                  - paragraph [ref=e429]: Aviator
+                  - generic [ref=e430]: Joueur **7483
+                - generic [ref=e431]:
+                  - img [ref=e432]
+                  - generic [ref=e433]: 105 500 FCFA
+              - button "Aviatrix Joueur **7483 100 000 FCFA" [ref=e434] [cursor=pointer]:
+                - generic [ref=e435]:
+                  - paragraph [ref=e436]: Aviatrix
+                  - generic [ref=e437]: Joueur **7483
+                - generic [ref=e438]:
+                  - img [ref=e439]
+                  - generic [ref=e440]: 100 000 FCFA
+              - button "Aviatrix Joueur **7483 100 000 FCFA" [ref=e441] [cursor=pointer]:
+                - generic [ref=e442]:
+                  - paragraph [ref=e443]: Aviatrix
+                  - generic [ref=e444]: Joueur **7483
+                - generic [ref=e445]:
+                  - img [ref=e446]
+                  - generic [ref=e447]: 100 000 FCFA
+              - button "Aviatrix Joueur **7483 439 000 FCFA" [ref=e448] [cursor=pointer]:
+                - generic [ref=e449]:
+                  - paragraph [ref=e450]: Aviatrix
+                  - generic [ref=e451]: Joueur **7483
+                - generic [ref=e452]:
+                  - img [ref=e453]
+                  - generic [ref=e454]: 439 000 FCFA
+              - button "Aviatrix Joueur **7483 274 000 FCFA" [ref=e455] [cursor=pointer]:
+                - generic [ref=e456]:
+                  - paragraph [ref=e457]: Aviatrix
+                  - generic [ref=e458]: Joueur **7483
+                - generic [ref=e459]:
+                  - img [ref=e460]
+                  - generic [ref=e461]: 274 000 FCFA
+              - button "Aviatrix Joueur **7483 244 000 FCFA" [ref=e462] [cursor=pointer]:
+                - generic [ref=e463]:
+                  - paragraph [ref=e464]: Aviatrix
+                  - generic [ref=e465]: Joueur **7483
+                - generic [ref=e466]:
+                  - img [ref=e467]
+                  - generic [ref=e468]: 244 000 FCFA
+              - button "Aviatrix Joueur **7483 230 000 FCFA" [ref=e469] [cursor=pointer]:
+                - generic [ref=e470]:
+                  - paragraph [ref=e471]: Aviatrix
+                  - generic [ref=e472]: Joueur **7483
+                - generic [ref=e473]:
+                  - img [ref=e474]
+                  - generic [ref=e475]: 230 000 FCFA
+              - button "Aviatrix Joueur **7483 226 000 FCFA" [ref=e476] [cursor=pointer]:
+                - generic [ref=e477]:
+                  - paragraph [ref=e478]: Aviatrix
+                  - generic [ref=e479]: Joueur **7483
+                - generic [ref=e480]:
+                  - img [ref=e481]
+                  - generic [ref=e482]: 226 000 FCFA
+              - button "Aviatrix Joueur **7483 224 000 FCFA" [ref=e483] [cursor=pointer]:
+                - generic [ref=e484]:
+                  - paragraph [ref=e485]: Aviatrix
+                  - generic [ref=e486]: Joueur **7483
+                - generic [ref=e487]:
+                  - img [ref=e488]
+                  - generic [ref=e489]: 224 000 FCFA
+              - button "Aviator Joueur **7483 134 000 FCFA" [ref=e490] [cursor=pointer]:
+                - generic [ref=e491]:
+                  - paragraph [ref=e492]: Aviator
+                  - generic [ref=e493]: Joueur **7483
+                - generic [ref=e494]:
+                  - img [ref=e495]
+                  - generic [ref=e496]: 134 000 FCFA
+              - button "Aviator Joueur **7483 105 500 FCFA" [ref=e497] [cursor=pointer]:
+                - generic [ref=e498]:
+                  - paragraph [ref=e499]: Aviator
+                  - generic [ref=e500]: Joueur **7483
+                - generic [ref=e501]:
+                  - img [ref=e502]
+                  - generic [ref=e503]: 105 500 FCFA
+              - button "Aviatrix Joueur **7483 100 000 FCFA" [ref=e504] [cursor=pointer]:
+                - generic [ref=e505]:
+                  - paragraph [ref=e506]: Aviatrix
+                  - generic [ref=e507]: Joueur **7483
+                - generic [ref=e508]:
+                  - img [ref=e509]
+                  - generic [ref=e510]: 100 000 FCFA
+              - button "Aviatrix Joueur **7483 100 000 FCFA" [ref=e511] [cursor=pointer]:
+                - generic [ref=e512]:
+                  - paragraph [ref=e513]: Aviatrix
+                  - generic [ref=e514]: Joueur **7483
+                - generic [ref=e515]:
+                  - img [ref=e516]
+                  - generic [ref=e517]: 100 000 FCFA
+          - generic [ref=e524]:
+            - button "Aviatrix" [ref=e526] [cursor=pointer]:
+              - generic [ref=e528]:
+                - paragraph [ref=e530]: Aviatrix
+                - img "Aviatrix" [ref=e531]
+                - generic:
+                  - paragraph: Aviatrix
+                  - button:
+                    - img
+                  - button: Play demo
+            - button "Aviator" [ref=e533] [cursor=pointer]:
+              - generic [ref=e535]:
+                - paragraph [ref=e537]: Aviator
+                - img "Aviator" [ref=e538]
+                - generic:
+                  - paragraph: Aviator
+                  - button:
+                    - img
+                  - button: Play demo
+            - button "Mines Supreme" [ref=e540] [cursor=pointer]:
+              - generic [ref=e542]:
+                - paragraph [ref=e544]: Mines Supreme
+                - img "Mines Supreme" [ref=e545]
+                - generic:
+                  - paragraph: Mines Supreme
+                  - button:
+                    - img
+                  - button: Play demo
+            - button "Le Soccer" [ref=e547] [cursor=pointer]:
+              - generic [ref=e549]:
+                - paragraph [ref=e551]: Le Soccer
+                - img "Le Soccer" [ref=e552]
+                - generic:
+                  - paragraph: Le Soccer
+                  - button:
+                    - img
+                  - button: Play demo
+            - button "crashlite" [ref=e554] [cursor=pointer]:
+              - generic [ref=e556]:
+                - paragraph [ref=e558]: crashlite
+                - img "crashlite" [ref=e559]
+                - generic:
+                  - paragraph: crashlite
+                  - button:
+                    - img
+                  - button: Play demo
+            - button "spinthebottle" [ref=e561] [cursor=pointer]:
+              - generic [ref=e563]:
+                - paragraph [ref=e565]: spinthebottle
+                - img "spinthebottle" [ref=e566]
+                - generic:
+                  - paragraph: spinthebottle
+                  - button:
+                    - img
+                  - button: Play demo
+            - button "Chicken X" [ref=e568] [cursor=pointer]:
+              - generic [ref=e570]:
+                - paragraph [ref=e572]: Chicken X
+                - img "Chicken X" [ref=e573]
+                - generic:
+                  - paragraph: Chicken X
+                  - button:
+                    - img
+                  - button: Play demo
+      - generic [ref=e576]:
+        - generic [ref=e577]:
+          - generic [ref=e578]:
+            - link "Tous les jeux" [ref=e579] [cursor=pointer]:
+              - /url: /casino
+              - img [ref=e580]
+            - button "Côte d'Ivoire" [ref=e594] [cursor=pointer]:
+              - img [ref=e595]
+              - generic [ref=e600]: Côte d'Ivoire
+              - img [ref=e601]
+          - generic [ref=e603]:
+            - generic [ref=e604]:
+              - heading "Casino" [level=3] [ref=e605]
+              - list [ref=e606]:
+                - listitem [ref=e607]:
+                  - link "New" [ref=e608] [cursor=pointer]:
+                    - /url: /casino/new
+                - listitem [ref=e609]:
+                  - link "Crash" [ref=e610] [cursor=pointer]:
+                    - /url: /casino/crash
+                - listitem [ref=e611]:
+                  - link "Vegas" [ref=e612] [cursor=pointer]:
+                    - /url: /casino/vegas
+                - listitem [ref=e613]:
+                  - link "Instants" [ref=e614] [cursor=pointer]:
+                    - /url: /casino/instants
+            - generic [ref=e615]:
+              - heading "Support" [level=3] [ref=e616]
+              - list [ref=e617]:
+                - listitem [ref=e618]:
+                  - link "howToPlay" [ref=e619] [cursor=pointer]:
+                    - /url: /tutorials
+                - listitem [ref=e620]:
+                  - link "Contacte nous" [ref=e621] [cursor=pointer]:
+                    - /url: /customer-support
+                - listitem [ref=e622]:
+                  - link "Business contact" [ref=e623] [cursor=pointer]:
+                    - /url: /customer-support
+                - listitem [ref=e624]:
+                  - link "FAQs" [ref=e625] [cursor=pointer]:
+                    - /url: /faq
+                - listitem [ref=e626]:
+                  - button "Chat en ligne" [ref=e627] [cursor=pointer]
+            - generic [ref=e628]:
+              - heading "aboutUs" [level=3] [ref=e629]
+              - list [ref=e630]:
+                - listitem [ref=e631]:
+                  - link "Promo" [ref=e632] [cursor=pointer]:
+                    - /url: /promos
+                - listitem [ref=e633]:
+                  - link "Conditions générales" [ref=e634] [cursor=pointer]:
+                    - /url: /terms
+                - listitem [ref=e635]:
+                  - link "Politique de Confidentialité" [ref=e636] [cursor=pointer]:
+                    - /url: /privacy
+                - listitem [ref=e637]:
+                  - link "Jeu responsable" [ref=e638] [cursor=pointer]:
+                    - /url: /responsible-gaming
+                - listitem [ref=e639]:
+                  - link "Affiliate program" [ref=e640] [cursor=pointer]:
+                    - /url: https://partners-dev.chopbet.ci
+            - generic [ref=e641]:
+              - heading "Connect with us" [level=3] [ref=e642]
+              - generic [ref=e643]:
+                - link "Facebook" [ref=e644] [cursor=pointer]:
+                  - /url: https://web.facebook.com/people/ChopWinGm/61577569647350/
+                  - img [ref=e645]
+                - link "Instagram" [ref=e647] [cursor=pointer]:
+                  - /url: https://www.instagram.com/chopwin.gm
+                  - img [ref=e648]
+                - link "WhatsApp" [ref=e650] [cursor=pointer]:
+                  - /url: https://www.whatsapp.com/channel/0029Vb6vbWHAojYz3sessA1G
+                  - img [ref=e651]
+                - link "TikTok" [ref=e653] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@chopwin.gm
+                  - img [ref=e654]
+                - link "X (Twitter)" [ref=e656] [cursor=pointer]:
+                  - /url: https://x.com/chopwingm
+                  - img [ref=e657]
+                - link "Telegram" [ref=e659] [cursor=pointer]:
+                  - /url: https://t.me/chopbetgm
+                  - img [ref=e660]
+        - generic [ref=e662]:
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - paragraph [ref=e665]:
+                - text: thisIsRealGamble
+                - strong [ref=e666]:
+                  - link "ici." [ref=e667] [cursor=pointer]:
+                    - /url: /responsible-gaming
+                - text: Tu dois avoir 18 ans ou plus pour t'inscrire ou jouer. Le jeu peut avoir des effets négatifs s'il n'est pas pratiqué avec modération.
+                - text: operatorLicense
+              - img [ref=e668]:
+                - generic [ref=e669]:
+                  - generic [ref=e671]: "18"
+                  - generic [ref=e672]: +
+            - generic [ref=e673]:
+              - img "IGA Summit Awards" [ref=e674]
+              - img "Gaming Labs Certified" [ref=e675]
+          - generic [ref=e676]:
+            - paragraph [ref=e677]: Copyright © 2026 Chopwin.Tous droits réservés
+            - paragraph [ref=e678]: versionNumber
+```
